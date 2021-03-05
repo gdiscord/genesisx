@@ -1,8 +1,8 @@
 ---
-name: "genesisx-osx-1.2"
+name: "genesisx-osx-1.5"
 enable_cache: true
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages: 
@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/GenesisX"
+- "url": "https://github.com/gdiscord/genesisx"
   "dir": "genesisx"
 files:
 - "MacOSX10.11.sdk.tar.gz"
